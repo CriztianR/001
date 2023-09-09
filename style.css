@@ -1,0 +1,84 @@
+
+.nombre{
+  color: #000e0d;
+font-family: Kaushan Script;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.datospersonales{
+background: rgb(6, 48, 51);
+padding: 5px;
+text-align: center;
+}
+.fotoestudiante{
+  width: 218px;
+  height: 218px;
+  flex-shrink: 0;
+
+  fill: url(<path-to-image>), rgb(8, 0, 0) -2.129px -4.11px / 104.188% 105.662% no-repeat;
+}
+.fila{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ficha{
+  margin:1px;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  background-color: rgba(191, 191, 219, 0.712);
+  border-radius: 25px;
+  color: #000c0b;
+font-family: Kaushan Script;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+
+/********** TEXT  **********/
+
+.contacto{
+  padding: 10px;
+  background: rgb(6, 48, 51);
+  text-align: center;
+  color: aqua;
+  font-size: 18px;
+}
+.parrafo{
+  padding: 25px;
+}
+
+.columna{
+  padding: 20px;
+  color: #000c0c;
+  text-align: left;
+  font-family: Kaushan Script;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/********** LAYAOUT **********/
+
+
+.container{
+  width: 90%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+/********** PAGINA **********/
+
